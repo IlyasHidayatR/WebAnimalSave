@@ -6,6 +6,19 @@
         <title>Adoption Dashboard</title>
         <!-- Import Tailwind CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css">
+        <!-- Styles -->
+        @livewireStyles
+        <style>
+            .max-desc {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            }
+            .dropdown:hover>.dropdown-menu {
+            display: block;
+            }
+        </style>
     </head>
     <body>
         <!-- Navigation Bar -->

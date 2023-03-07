@@ -7,6 +7,19 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.17/dist/tailwind.min.css">
         <!-- <link rel="stylesheet" href="{{ mix('css/app.css') }}">
         <script src="{{ mix('js/app.js') }}" defer></script> -->
+        <!-- Styles -->
+        @livewireStyles
+        <style>
+            .max-desc {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            }
+            .dropdown:hover>.dropdown-menu {
+            display: block;
+            }
+        </style>
     </head>
     <body class="bg-gray-200">
         <!-- Navbar -->
